@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# To Do app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Overview](https://github.com/user-attachments/assets/a5ccd3cc-c2de-41c8-b749-ec1ddc8a9166)
 
-Currently, two official plugins are available:
+# Add tasks
+![Add Tasks](https://github.com/user-attachments/assets/82fb68e5-45a9-44ed-94f6-58f3ee1e8ffa)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Mark task as done
 
-## Expanding the ESLint configuration
+![mark as done](https://github.com/user-attachments/assets/51d07ed1-b7b6-4872-b6f2-620a5abaa54d)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# edit task
 
-- Configure the top-level `parserOptions` property like this:
+![edit task](https://github.com/user-attachments/assets/4aa9f0ff-6fa0-4903-bbcd-4d08f365fda7)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+# delete task
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![delete task](https://github.com/user-attachments/assets/344cd008-5bf4-4b5d-8110-587ca68f5790)
+
+
