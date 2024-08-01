@@ -1,0 +1,146 @@
+/* TodoList.css */
+* {
+    background-color: #e8e8f1;
+    
+}
+
+.main-container {
+    width: 60%;
+    background-color: #e8e8f1;
+    border: 2px solid #885670;
+    color: #111827;
+    padding: 40px;
+    min-height: 50vh;
+    margin: 5% auto;
+    margin-bottom: 40px;
+    text-align: center;
+    border-radius: 10px;
+    overflow-y: auto;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 80vh;
+}
+
+.title {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 24px;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.input-card {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.input-field {
+    background-color: #f9fafb;
+    padding: 10px;
+    border: 1.5px solid #885670;
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.add-button {
+    background-color: #885670;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #7a4d65;
+}
+
+.todo-item {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0.1, 0.1, 0.1);
+    transition: background-color 0.3s ease;
+    
+}
+
+.todo-item:hover {
+    background-color: #b89aa9;
+}
+
+.todo-item-checkbox {
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.todo-item-checkbox input {
+    transform: scale(1.2);
+}
+
+.todo-item-text {
+    background: none;
+    flex: 1;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.todo-item-text input {
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.to-do-task{
+    align-items: start;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.todo-item-actions {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    background: none;
+}
+
+.todo-item button {
+    /* padding: 5px 10px; */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.todo-item .save-button {
+    background-color: #0b825a; /* emerald green */
+    color: white;
+}
+
+.todo-item .edit-button {
+    background-color: #183462; /* blue */
+    color: white;
+}
+
+.todo-item .delete-button {
+    background-color: #782222; /* red */
+    color: white;
+}
+
+.todo-item button:hover {
+    opacity: 0.8;
+}

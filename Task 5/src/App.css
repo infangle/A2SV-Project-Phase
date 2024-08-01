@@ -1,0 +1,43 @@
+#root {
+  width: 50%;
+  height: 60%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  align-self: center;
+}
+
+label{
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+
+}
+
+input, textarea{
+background-color: rgb(190, 188, 188);
+border: 1.25px solid rgb(46, 1, 1);
+border-radius: 5px;
+padding: 5px;
+margin-bottom: 10px;
+
+}
+
+
+
+.button{
+  background-color: rgb(139, 20, 20);
+  color: black;
+}
+.error{
+  color: rgb(253, 122, 122);
+  font-size: 12px;
+  text-align: left;
+}
+
+.form-control{
+  margin-bottom: 20px;
+}
+
