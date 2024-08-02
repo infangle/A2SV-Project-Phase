@@ -20,22 +20,20 @@ export const contactForm = () => {
   return (
     <div className='contact-form-container'>
     <form className='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
-      <h2>Contact Form</h2>
+      <h2>Contact Form</h2><br></br>
         <div className='form-control'>
         <label>Name:</label>
-        <br></br>
-        <input id='name' type='text' {...register("name", {required: "Enter you name or I am not Leaving, Enter Name!",})} placeholder='Full Name'/>
+        <input id='name' type='text' {...register("name", {required: "Name is required",})} placeholder='Full Name'/>
         <p className='error'>{errors.name?.message}</p>
         </div>
         
         <div className='form-control'>
         <label>Email:</label>
-        <br></br>
         <input id='email' type='email' {...register("email",
-          {required: {value: true, message: "What's your return address, Enter Email!"},
+          {required: {value: true, message: "Email is required"},
             pattern: {
             value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
-            message: "Where did you buy this email address, Invalid email address!",
+            message: "Invalid email address",
           }
 
         })} placeholder='Your Email'/>
@@ -44,8 +42,7 @@ export const contactForm = () => {
         
         <div className='form-control'>
         <label>Message:</label>
-        <br></br>
-        <textarea id='message' {...register("message", {required: "What do you want me to tell ther, Enter your Message!"})} placeholder='Your Message' required/>
+        <textarea id='message' {...register("message", {required: "Message is required"})} placeholder='Your Message' required/>
         <p className='error'>{errors.message?.message}</p>
         </div>
         <button className='button' type='submit'>Send</button>

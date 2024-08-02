@@ -4,21 +4,34 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: white;
+  border-color: #fb5607;
+  color: #195e56;
   align-self: center;
+  border-radius: 20px;
+}
+
+.contact-form{
+  border: 1.25px dashed #fb5607 ;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 20px;
+  width: 80%;
+  
 }
 
 label{
   font-weight: bold;
   display: flex;
   margin-bottom: 5px;
+  color: #003049;
 
 }
 
 input, textarea{
-background-color: rgb(190, 188, 188);
-border: 1.25px solid rgb(46, 1, 1);
+background-color: white;
+border: 1.25px solid #f9c74f;
 border-radius: 5px;
 padding: 5px;
 margin-bottom: 10px;
@@ -28,13 +41,18 @@ margin-bottom: 10px;
 
 
 .button{
-  background-color: rgb(139, 20, 20);
+  background-color: #fb5607;
   color: black;
+  width: 100%;
+}
+
+.button :hover{
+  background-color:#e24d06;
 }
 .error{
-  color: rgb(253, 122, 122);
+  color: #d00000;
   font-size: 12px;
-  text-align: left;
+  text-align: right;
 }
 
 .form-control{
