@@ -1,13 +1,9 @@
 /* TodoList.css */
-* {
-    background-color: #e8e8f1;
-    
-}
 
 .main-container {
     width: 60%;
-    background-color: #e8e8f1;
-    border: 2px solid #885670;
+    background-color: #f2f9f9;
+    border: 2px solid #2d464c;
     color: #111827;
     padding: 40px;
     min-height: 50vh;
@@ -39,14 +35,14 @@
 .input-field {
     background-color: #f9fafb;
     padding: 10px;
-    border: 1.5px solid #885670;
+    border: 1.5px solid #2d464c;
     border-radius: 5px;
     width: 80%;
     margin-bottom: 10px;
 }
 
 .add-button {
-    background-color: #885670;
+    background-color: #438e96;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -56,10 +52,11 @@
 }
 
 .add-button:hover {
-    background-color: #7a4d65;
+    background-color: #3b757f;
 }
 
 .todo-item {
+    background-color: #bfe0e2;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
@@ -73,7 +70,7 @@
 }
 
 .todo-item:hover {
-    background-color: #b89aa9;
+    background-color: #92cace;
 }
 
 .todo-item-checkbox {
@@ -97,7 +94,7 @@
     font-family: 'Arial', Helvetica, sans-serif;
     font-size: 16px;
     padding: 5px;
-    border: 1px solid #d1d5db;
+    border: 1px solid #2d464c;
     border-radius: 4px;
     width: 100%;
 }
@@ -127,17 +124,17 @@
 }
 
 .todo-item .save-button {
-    background-color: #0b825a; /* emerald green */
+    background-color: #3b757f;
     color: white;
 }
 
 .todo-item .edit-button {
-    background-color: #183462; /* blue */
+    background-color: #3b757f; 
     color: white;
 }
 
 .todo-item .delete-button {
-    background-color: #782222; /* red */
+    background-color: #356169; /* red */
     color: white;
 }
 
