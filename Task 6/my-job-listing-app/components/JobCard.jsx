@@ -1,18 +1,17 @@
-// components/JobCard.jsx
 import React from "react";
 import Image from "next/image";
 
 const JobCard = ({ job }) => {
   return (
-    <div className="opportunities flex flex-wrap w-[80%] mx-auto justify-center">
+    <div className="opportunities flex flex-wrap w-[80%] mx-auto justify-center cursor-pointer">
       <div className="job-listing-container p-[24px_24px_24px_24px] gap-0 rounded-[30px] border-2 border-[#D6DDEB] bg-white shadow-lg flex justify-between my-5">
         <div className="job-list-content flex gap-6">
           <Image
-            src={job.image} // Assuming `job.avatar` contains the URL of the avatar image
+            src={job.image} // Assuming `job.image` contains the URL of the image
             alt="Company Logo"
             width={66}
             height={59}
-            className=" avatar w-[66px] h-[59px] opacity-0"
+            className="avatar w-[66px] h-[59px] opacity-0"
           />
           <div className="job-detail flex flex-col gap-2">
             <div className="job-title">
@@ -28,7 +27,7 @@ const JobCard = ({ job }) => {
               </div>
               <div className="job-location">
                 <p className="font-epilogue text-[16px] font-normal leading-[25.6px] text-[#7C8493]">
-                  {job.about.location}
+                  {job.location}
                 </p>
               </div>
             </div>
