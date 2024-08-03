@@ -3,6 +3,7 @@
 
 import React, { useState, useEffect } from "react";
 import JobCard from "../components/JobCard";
+import Header from "../components/Header";
 
 const IndexPage = () => {
   const [jobs, setJobs] = useState([]);
@@ -26,6 +27,7 @@ const IndexPage = () => {
 
   return (
     <div>
+      <Header count={jobs.length} />
       {jobs.map((job, index) => (
         <JobCard key={index} job={job} />
       ))}
