@@ -1,3 +1,15 @@
+# Job-listing-app
+
+# job card 
+![job card](https://github.com/user-attachments/assets/f57dcc94-efff-42f9-aa28-97017165191b)
+
+# dashboard
+![job dashboard](https://github.com/user-attachments/assets/a0b133c1-c30a-4aa1-bfb8-0b223b2f9ad6)
+
+# job-detail
+![job-detail part 1](https://github.com/user-attachments/assets/ed396266-e6d0-4b9c-9f85-bc19b1df750a)
+![job-detail part 2](https://github.com/user-attachments/assets/96c99a31-1337-4348-9091-001142218489)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
