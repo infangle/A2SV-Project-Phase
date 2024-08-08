@@ -107,6 +107,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 # screenshots
 
 # signup page: 
+![signup](https://github.com/user-attachments/assets/921a5fe2-af5a-43b7-ac8f-ea26bec68586)
+
+# email verification: 
+![verify](https://github.com/user-attachments/assets/b78c6718-7084-485d-aab0-d43bfab5af77)
+
+
 
 
 This `README.md` provides clear and concise instructions on how to set up and use your "authentication-app" project, making it easy for others to get started.
